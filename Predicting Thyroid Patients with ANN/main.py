@@ -4,8 +4,8 @@ from sklearn.preprocessing import StandardScaler
 from sklearn.neural_network import MLPClassifier
 from sklearn.metrics import classification_report, confusion_matrix
 
-train_file_path = 'C:/Users/metinayin/Desktop/ann-train.data'
-test_file_path = 'C:/Users/metinayin/Desktop/ann-test.data'
+train_file_path = 'C:/Users/metinayin/Desktop/GitHub/predicting-thyroid-patients-with-ann/Predicting Thyroid Patients with ANN/ann-train.data'
+test_file_path = 'C:/Users/metinayin/Desktop/GitHub/predicting-thyroid-patients-with-ann/Predicting Thyroid Patients with ANN/ann-test.data'
 
 train_data = []
 with open(train_file_path, 'r') as file:
